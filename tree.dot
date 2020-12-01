@@ -1,16 +1,16 @@
 digraph Tree {
 node [shape=box, style="filled", color="black"] ;
-0 [label="gni_2013 <= 17686.5\nmse = 1.183\nsamples = 136\nvalue = 5.481", fillcolor="#f5cdb0"] ;
-1 [label="le_2013 <= 66.8\nmse = 0.732\nsamples = 88\nvalue = 4.93", fillcolor="#fae5d5"] ;
+0 [label="le_2018 <= 70.7\nmse = 1.183\nsamples = 136\nvalue = 5.481", fillcolor="#f2c29f"] ;
+1 [label="gni_2018 <= 3585.5\nmse = 0.473\nsamples = 44\nvalue = 4.404", fillcolor="#fdf5ef"] ;
 0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
-2 [label="mse = 0.463\nsamples = 39\nvalue = 4.318", fillcolor="#ffffff"] ;
+2 [label="mse = 0.45\nsamples = 29\nvalue = 4.189", fillcolor="#ffffff"] ;
 1 -> 2 ;
-3 [label="mse = 0.412\nsamples = 49\nvalue = 5.417", fillcolor="#f5cfb4"] ;
+3 [label="mse = 0.258\nsamples = 15\nvalue = 4.818", fillcolor="#f9e1d0"] ;
 1 -> 3 ;
-4 [label="ineq_2013 <= 0.795\nmse = 0.431\nsamples = 48\nvalue = 6.491", fillcolor="#eca16b"] ;
+4 [label="gni_2018 <= 30525.5\nmse = 0.701\nsamples = 92\nvalue = 5.996", fillcolor="#edaa79"] ;
 0 -> 4 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
-5 [label="mse = 0.183\nsamples = 32\nvalue = 6.122", fillcolor="#efb184"] ;
+5 [label="mse = 0.39\nsamples = 63\nvalue = 5.601", fillcolor="#f1bc96"] ;
 4 -> 5 ;
-6 [label="mse = 0.112\nsamples = 16\nvalue = 7.228", fillcolor="#e58139"] ;
+6 [label="mse = 0.303\nsamples = 29\nvalue = 6.854", fillcolor="#e58139"] ;
 4 -> 6 ;
 }
